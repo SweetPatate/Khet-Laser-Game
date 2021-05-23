@@ -11,7 +11,9 @@ fpsClock = pygame.time.Clock()
 pygame.init()
 Surface = pygame.display.set_mode((1280, 720))
 menu(Surface, select, choice, etat_son)
-pygame.display.set_caption('Khet Laser Game 2.0')
+pygame.display.set_caption('Khet Laser Game')
+icon = pygame.image.load('anubis.ico')
+pygame.display.set_icon(icon)
 game = True
 
 def music(musique, etat_son):
