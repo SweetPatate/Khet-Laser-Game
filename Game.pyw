@@ -12,7 +12,7 @@ pygame.init()
 Surface = pygame.display.set_mode((1280, 720))
 menu(Surface, select, choice, etat_son)
 pygame.display.set_caption('Khet Laser Game')
-icon = pygame.image.load('anubis.ico')
+icon = pygame.image.load('sprites/commun/anubis.png')
 pygame.display.set_icon(icon)
 game = True
 
